@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>-Квиз ЈС-</title>
+		<link href ="style.css" rel ="stylesheet">
+		<script src = "sport.js"></script>
+
+	</head>
+
+
+	<body background="upitnik-walp.jpg">
+		<h1>Спорт</h1>
+
+
+		<form id = "kviz" name = "kviz">
+
+
+			<p class = "pitanja">1.Којим спортом се бави Љубомир Врањеш?</p>
+			<input id = "textbox" type = "text" name = "prvoPitanje">
+
+			<p class = "pitanja">2. Колико НБА прстенова је освојио Тим Данкан?</p>
+			<input type = "radio" id = "cb" name = "drugoPitanje" value = "Cetiri"> Четири<br>
+			<input type = "radio" id = "cb" name = "drugoPitanje" value = "Sedam"> Седам<br>
+			<input type = "radio" id = "cb" name = "drugoPitanje" value = "Pet"> Пет<br>
+
+			<p class = "pitanja">3. Најбољи тренер двадесетог века по избориу ФИФА је?</p>
+
+			<input type = "radio" id = "cb" name = "trecePitanje" value = "Fergi"> Алекс Фергусон<br>
+			<input type = "radio" id = "cb" name = "trecePitanje" value = "Rinus"> Ринус Михелс<br>
+			<input type = "radio" id = "cb" name = "trecePitanje" value = "Arigo"> Ариго Саки<br>
+
+			<p class = "pitanja">4. Који број на дресу је носио Јохан Кројф?</p>
+
+			<input id = "textbox" type = "text" name = "cetvrtoPitanje">
+		
+
+			<input id = "button" type = "button" value = "Rezultat" onclick = "JSkviz();">
+
+		</form>
+
+		<div id = "rezultatKviza">
+			<p id = "tacniOdgovori"></p>
+			<p id = "poruka"></p>
+			<button onclick="ponovoIsto()" id="button">Ponovo ista oblast</button>
+			<a href="Pocetna.html">
+			<button id = "button" onclick="">Изабери другу област</button>
+			</a>
+		</div>	
+	</body>
+</html>
+
+
